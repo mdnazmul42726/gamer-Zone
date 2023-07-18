@@ -5,12 +5,49 @@
 
 @media (min-width: 279px) and (max-width: 319px) {
 
-    /* CSS */
+  /* CSS */
+  /* header styles */
+  header {
+    display: flex;
+    justify-content: space-around;
+    padding: 22px 98px 20px 30px;
+    gap: 21px;
+    text-align: center;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    flex-direction: column;
+  }
 
+  .nav-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 
-    /* CSS */
+  .nav-icon {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    width: 230px;
+    height: 56px;
+    flex-shrink: 0;
+    align-items: center;
+    text-align: center;
+    margin: 7px 0px 0px 46px;
+  }
 
+  .nav-container a {
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px 0px 4px 20px;
+    text-decoration: none;
+    align-items: center;
+  }
 
+  /* CSS */
 }
 
 
@@ -21,12 +58,49 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
 
-    /* CSS */
+  /* CSS */
+  /* header styles */
+  header {
+    display: flex;
+    justify-content: space-around;
+    padding: 22px 98px 20px 50px;
+    gap: 21px;
+    text-align: center;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    flex-direction: column;
+  }
 
+  .nav-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 
-    /* CSS */
+  .nav-icon {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    width: 230px;
+    height: 56px;
+    flex-shrink: 0;
+    align-items: center;
+    text-align: center;
+    margin: 7px 0px 0px 51px;
+  }
 
+  .nav-container a {
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px 0px 4px 20px;
+    text-decoration: none;
+    align-items: center;
+  }
 
+  /* CSS */
 }
 
 
@@ -37,9 +111,20 @@
 
 @media (min-width: 481px) and (max-width: 767px) {
 
-    /* CSS */
-    /* CSS */
+  /* CSS */
+  /* header styles */
+  header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 50px 20px 50px;
+    gap: 205px;
+    text-align: center;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  }
 
+  /* CSS */
 
 }
 
@@ -51,8 +136,20 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
-    /* CSS */
-    /* CSS */
+  /* CSS */
+  /* header styles */
+  header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 50px 20px 50px;
+    gap: 205px;
+    text-align: center;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  }
+
+  /* CSS */
 
 
 }
