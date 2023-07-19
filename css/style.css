@@ -127,17 +127,18 @@ header {
     border-radius: 48px;
     border: 1px solid #fff;
     background: #FF42A5;
-    transition:.5s;
-   
+    transition: .5s;
+
 }
-.banner-btn-container .sign-in-btn:hover{
+
+.banner-btn-container .sign-in-btn:hover {
     border: 1px solid #000;
     background: transparent;
     color: #FF42A5;
 }
 
 
-.banner-btn-container .go-rogue-btn{
+.banner-btn-container .go-rogue-btn {
     display: inline-flex;
     padding: 15px 30px;
     color: #FFF;
@@ -146,17 +147,98 @@ header {
     border: 0;
     gap: 10px;
     border-radius: 48px;
-background: #4EC5F7;
-transition: .5s;
+    background: #4EC5F7;
+    transition: .5s;
 }
-.banner-btn-container .go-rogue-btn:hover{
+
+.banner-btn-container .go-rogue-btn:hover {
     border: 1px solid #000;
     background: transparent;
     color: #4EC5F7;
 }
 
-
 .banner-img img {
     width: 80%;
     margin-left: 50px;
 }
+
+/* gamer styles */
+.gamer {
+    display: flex;
+    padding: 50px;
+    background: #FFF9FC;
+}
+
+.gamer-img {
+    display: flex;
+    width: 65%;
+}
+
+.gamer-img img {
+    width: 600px;
+}
+
+.gamer-content h1 {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.gamer-content p {
+    color: #534C64;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: right;
+    line-height: 30px;
+    margin: 10px 0px 0px 0px;
+}
+.know-more-btn-container{
+    display: flex;
+    align-items: flex-end;
+    margin: 0 auto;
+}
+.know-more-btn-container .know-more-btn {
+    display: inline-flex;
+    padding: 15px 30px;
+    color: #FFF;
+    font-weight: 600;
+    align-items: flex-start;
+    border: 0;
+    gap: 10px;
+    border-radius: 48px;
+    border: 1px solid #fff;
+    background: #FF42A5;
+    transition: .5s;
+    text-align: right;
+    margin: 20px 0px 0px 400px
+}
+
+.know-more-btn-container .know-more-btn:hover{
+    border: 1px solid #000;
+    background: transparent;
+    color: #FF42A5;
+}
+.gamer-content .purpose{
+    color: #534C64;
+font-size: 15px;
+text-align: right;
+margin: 0px 30px 0px 0px;
+font-style: normal;
+font-weight: 700;
+line-height: 45px;
+}
+.gamer-content h4{
+    color: #534C64;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 45px;
+text-align: right;
+}
+
