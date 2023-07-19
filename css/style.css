@@ -364,8 +364,8 @@ header {
     background: #FF55AE;
     height: 460px;
     display: flex;
-    width: 92%;
-    padding: 50px;
+    width: 100%;
+    padding-bottom: 50px;
     align-items: center;
     justify-content: space-around;
     gap: 200px;
