@@ -188,6 +188,19 @@
     text-align: right;
     margin: 14px 0px 1px 13px;
   }
+  .main-content {
+    padding-left: 23px;
+}
+.main {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  padding: 0px 50px 50px 50px justify-content: space-evenly;
+  flex-direction: column;
+}
+.xxl-img img {
+  width: 311px;
+}
 
   .gamer-content h4 {
     color: #534C64;
@@ -222,7 +235,13 @@
     width: 100%;
     margin-left: 7px;
   }
-
+/* player */
+.player-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-direction: column;
+}
 
   /* CSS */
 }
@@ -441,7 +460,13 @@
 .xxl-img img {
   width: 396px;
 }
-
+/* playesr styles */
+.player-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-direction: column;
+}
   /* CSS */
 }
 
