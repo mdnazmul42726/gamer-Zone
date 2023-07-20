@@ -7,6 +7,35 @@
 
   /* CSS */
   /* header styles */
+  /* img galary */
+  .card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* padding: 0px 80px 0px 140px; */
+    flex-direction: column;
+  }
+
+  #a {
+    color: #0B0223;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2em;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  #c {
+    color: #534C64;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.2em;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+    text-align: center;
+  }
+
+  /* img galary */
   header {
     display: flex;
     justify-content: space-around;
@@ -188,19 +217,22 @@
     text-align: right;
     margin: 14px 0px 1px 13px;
   }
+
   .main-content {
     padding-left: 23px;
-}
-.main {
-  width: 100%;
-  height: 600px;
-  display: flex;
-  padding: 0px 50px 50px 50px justify-content: space-evenly;
-  flex-direction: column;
-}
-.xxl-img img {
-  width: 311px;
-}
+  }
+
+  .main {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding: 0px 50px 50px 50px justify-content: space-evenly;
+    flex-direction: column;
+  }
+
+  .xxl-img img {
+    width: 311px;
+  }
 
   .gamer-content h4 {
     color: #534C64;
@@ -235,78 +267,89 @@
     width: 100%;
     margin-left: 7px;
   }
-/* player */
-.player-container {
-  display: flex;
-  gap: 20px;
-  padding: 20px;
-  flex-direction: column;
-}
-/* footer styles */
-.footer {
-  margin-top: 495px;
-  width: 100%;
-  height: 331px;
-  /* background: #0B0223; */
-  background: #0B0223;
-  align-items: center;
-}
-.footer-logo {
-  display: flex;
-  width: 100px;
-  padding-top: 36px;
-  padding-left: 17%;
-}
-.foot-nav {
-  width: 100%;
-  text-align: center;
-  margin-top: 17px;
-}
-.foot-nav a {
-  color: #FFF;
-  text-align: center;
-  font-size: 12px;
-  font-weight: 600;
-  text-decoration: none;
-  margin-left: 13px;
-  line-height: 27px;
-  padding-top: 16px;
-}
-.foot-nav-2 {
-  width: 100%;
-  text-align: center;
-  margin-top: 18px;
-}
-.foot-nav-2 a {
-  color: rgba(255, 255, 255, 0.60);
-  text-align: center;
-  font-family: Work Sans;
-  font-size: 9px;
-  font-style: normal;
-  font-weight: 500;
-  margin-left: 12px;
-  text-decoration: none;
-}
-.foot-icon {
-  width: 100%;
-  text-align: center;
-  margin-top: 13px;
-}
-.foot-icon a {
-  font-size: 20px;
-  margin-left: 20px;
-  color: #FFF;
 
-}
-.foot-last p {
-  color: rgba(255, 255, 255, 0.60);
-  text-align: center;
-  font-family: Work Sans;
-  font-size: 10px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
+  /* player */
+  .player-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  /* footer styles */
+  .footer {
+    margin-top: 495px;
+    width: 100%;
+    height: 331px;
+    /* background: #0B0223; */
+    background: #0B0223;
+    align-items: center;
+  }
+
+  .footer-logo {
+    display: flex;
+    width: 100px;
+    padding-top: 36px;
+    padding-left: 17%;
+  }
+
+  .foot-nav {
+    width: 100%;
+    text-align: center;
+    margin-top: 17px;
+  }
+
+  .foot-nav a {
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 13px;
+    line-height: 27px;
+    padding-top: 16px;
+  }
+
+  .foot-nav-2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 18px;
+  }
+
+  .foot-nav-2 a {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 12px;
+    text-decoration: none;
+  }
+
+  .foot-icon {
+    width: 100%;
+    text-align: center;
+    margin-top: 13px;
+  }
+
+  .foot-icon a {
+    font-size: 20px;
+    margin-left: 20px;
+    color: #FFF;
+
+  }
+
+  .foot-last p {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
   /* CSS */
 }
 
@@ -322,6 +365,35 @@
 @media (min-width: 320px) and (max-width: 480px) {
 
   /* CSS */
+  /* img galary */
+  .card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* padding: 0px 80px 0px 140px; */
+    flex-direction: column;
+  }
+
+  #a {
+    color: #0B0223;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2em;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  #c {
+    color: #534C64;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.2em;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+    text-align: center;
+  }
+
+  /* img galary */
   /* header styles */
   header {
     display: flex;
@@ -406,6 +478,35 @@
     transition: .5s;
   }
 
+  /* img galary */
+  .card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* padding: 0px 80px 0px 140px; */
+    flex-direction: column;
+  }
+
+  #a {
+    color: #0B0223;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2em;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  #c {
+    color: #534C64;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.2em;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+    text-align: center;
+  }
+
+  /* img galary */
   /* gamer styles */
   .gamer {
     display: flex;
@@ -517,80 +618,92 @@
     display: flex;
     padding: 0px 50px 50px 50px justify-content: space-evenly;
     flex-direction: column;
-}
-.main-content {
-  padding-left: 28px;
-}
-.xxl-img img {
-  width: 396px;
-}
-/* playesr styles */
-.player-container {
-  display: flex;
-  gap: 20px;
-  padding: 20px;
-  flex-direction: column;
-}
-/* footer styles */
-.footer {
-  margin-top: 495px;
-  width: 100%;
-  height: 450px;
-  /* background: #0B0223; */
-  background: #0B0223;
-  align-items: center;
-}
-.footer-logo {
-  display: flex;
-  width: 100px;
-  padding-top: 80px;
-  padding-left: 28%;
-}
-.foot-nav a {
-  color: #FFF;
-  text-align: center;
-  font-size: 15px;
-  font-weight: 600;
-  text-decoration: none;
-  margin-left: 13px;
-  line-height: 42px;
-  padding-top: 30px;
-}
-.foot-nav-2 {
-  width: 100%;
-  text-align: center;
-  margin-top: 18px;
-}
-.foot-nav-2 a {
-  color: rgba(255, 255, 255, 0.60);
-  text-align: center;
-  font-family: Work Sans;
-  font-size: 9px;
-  font-style: normal;
-  font-weight: 500;
-  margin-left: 12px;
-  text-decoration: none;
-}
-.foot-icon {
-  width: 100%;
-  text-align: center;
-  margin-top: 13px;
-}
-.foot-icon a {
-  font-size: 20px;
-  margin-left: 20px;
-  color: #FFF;
+  }
 
-}
-.foot-last p {
-  color: rgba(255, 255, 255, 0.60);
-  text-align: center;
-  font-family: Work Sans;
-  font-size: 10px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
+  .main-content {
+    padding-left: 28px;
+  }
+
+  .xxl-img img {
+    width: 396px;
+  }
+
+  /* playesr styles */
+  .player-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  /* footer styles */
+  .footer {
+    margin-top: 495px;
+    width: 100%;
+    height: 450px;
+    /* background: #0B0223; */
+    background: #0B0223;
+    align-items: center;
+  }
+
+  .footer-logo {
+    display: flex;
+    width: 100px;
+    padding-top: 80px;
+    padding-left: 28%;
+  }
+
+  .foot-nav a {
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 13px;
+    line-height: 42px;
+    padding-top: 30px;
+  }
+
+  .foot-nav-2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 18px;
+  }
+
+  .foot-nav-2 a {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 12px;
+    text-decoration: none;
+  }
+
+  .foot-icon {
+    width: 100%;
+    text-align: center;
+    margin-top: 13px;
+  }
+
+  .foot-icon a {
+    font-size: 20px;
+    margin-left: 20px;
+    color: #FFF;
+
+  }
+
+  .foot-last p {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
   /* CSS */
 }
 
@@ -603,6 +716,35 @@
 @media (min-width: 481px) and (max-width: 767px) {
 
   /* CSS */
+  /* img galary */
+  .card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* padding: 0px 80px 0px 140px; */
+    flex-direction: column;
+  }
+
+  #a {
+    color: #0B0223;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2em;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  #c {
+    color: #534C64;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.2em;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+    text-align: center;
+  }
+
+  /* img galary */
   /* header styles */
   header {
     display: flex;
